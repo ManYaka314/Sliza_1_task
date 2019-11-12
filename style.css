@@ -1,0 +1,291 @@
+@font-face {
+	font-family: "Segoe UI";
+	src: url(segoe_ui.ttf);
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	/*margin-top: 4px;*/
+	font-family: "Segoe UI";
+}
+body {
+	background-color: #e6e6e6;
+}
+hr {
+	margin-bottom: 6px;
+	/* Style for "Line 9" */
+	height: 0;
+	border: 1px solid #e9e8e8;
+}
+.page {
+/*	display: flex;*/
+	background-color: #e6e6e6;
+	/*height: 900px;*/
+}
+.left_block {
+	width: 320px;
+	max-width: 320px;
+	/*display: flex;*/
+	position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 5px 3px 5px 3px;
+}
+.table_section {
+	/*width: 50%;*/
+	padding: 12px;
+	margin: 12px;
+	max-width: 320px;
+	/*width: 285px;*/
+	/*height: 600px;*/
+	box-shadow: 2px 8px 12px rgba(55, 65, 73, 0.15);
+	border-radius: 3px;
+	background-color: #ffffff;
+	/*display: flex;*/
+	padding-bottom: 1px;
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.order {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.cost {
+	/* Style for "18.000 ₽" */
+	width: 56px;
+	height: 20px;
+	color: #26c37f;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 600;
+}
+.status_section {
+	display: flex;
+	height: 20px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+.art {
+	display: flex;
+	/* Style for "Артикул" */
+	color: #9499a8;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: 400;
+	justify-content: space-between;
+}
+.prices {
+	display: flex;
+	/* Style for "Цена прода" */
+	color: #17283c;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: 400;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.count_section {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+}
+.count {
+	/* Style for "Количество" */
+	width: 67px;
+	height: 17px;
+	color: #9499a8;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: 400;
+}
+.have {
+	/* Style for "Отсутствуе" */
+	width: 66px;
+	height: 17px;
+	color: #b4c3d0;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: 400;
+	border-radius: 2px;
+	border: 1px solid #b4c3d0;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.have:hover {
+	background-color: #1baffa;
+}
+.avatar {
+	justify-content: flex-start;
+	margin-right: 10px;
+}
+.user_vk {
+	justify-content: flex-end;
+	align-self: center;
+	margin: 10px;
+}
+.user_ok {
+	justify-content: flex-end;
+	align-self: center;
+}
+.user_info {
+	display: flex;
+    align-items: center;
+}
+.user_social_webs {
+	display: flex;
+    align-items: center;
+}
+.params {
+	display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.values {
+	display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.name {
+	margin-bottom: 6px;
+}
+.value {
+	margin-bottom: 6px;
+}
+.status {
+	/* Style for "Статус:" */
+	width: 39px;
+	height: 18px;
+	color: #9499a8;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 8px;
+}
+.properties {
+	display: flex;
+}
+.button_minus {
+/* Style for "Rectangle" */
+	width: 20px;
+	height: 20px;
+	border-radius: 2px 0 0 2px;
+	border: 1px solid #b4c3d0;
+	background-color: #ffffff;
+	border-right-width: 0px;
+	text-align: center;
+	align-items: center;
+}
+.button_minus:hover {
+	background-color: #ff5252;
+	border-color: #ff5252;
+	color: #ffffff;
+}
+.button_plus {
+	/* Style for "Rectangle" */
+	width: 20px;
+	height: 20px;
+	border-radius: 0 2px 2px 0;
+	border: 1px solid #b4c3d0;
+	background-color: #ffffff;
+	border-left-width: 0px;
+	text-align: center;
+	align-items: center;
+}
+.button_plus:hover {
+	background-color: #26c37f;
+	border-color: #26c37f;
+	color: #ffffff;
+}
+.input_text {
+	/* Style for "Rectangle" */
+	width: 35px;
+	height: 18px;
+	border: 1px solid #b4c3d0;
+	background-color: #ffffff;
+	text-align: center;
+}
+.inputs {
+	display: flex;
+	margin-bottom: 6px;
+}
+.vk {
+	background: url(img/Path_1830.png);
+	display: block;
+	width: 18px;
+	height: 11px;
+}
+.vk:hover {
+	background: url(img/Path_1831.png);
+}
+.item_links {
+	display: flex;
+}
+.ok {
+	margin-right: 6px;
+	align-self: start;
+}
+.site {
+	background: url(img/Path_1381_.png);
+	display: block;
+	width: 17px;
+	height: 17px;
+}
+.site:hover {
+	background: url(img/Path_1381.png);
+}
+
+h1 {
+	width: 65px;
+	height: 20px;
+	color: #17283c;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 20px;
+}
+h2 {
+	/* Style for "Пробная за" */
+	width: 110px;
+	height: 20px;
+	color: #17283c;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 400;
+	white-space: nowrap;
+}
+h3 {
+	/* Style for "Мужской дж" */
+/*	width: 200px;
+	height: 19px;*/
+	color: #17283c;
+	font-family: "Segoe UI";
+	font-size: 14px;
+	font-weight: 600;
+	white-space: nowrap;
+	margin-bottom: 6px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+select {
+	/* Style for "Ожидает по" */
+/*	width: 140px;
+	height: 18px;*/
+	color: #17283c;
+	font-family: "Segoe UI";
+	font-size: 12px;
+	font-weight: 400;
+	width: 100%;
+	/* Style for "Rectangle" */
+	border-radius: 2px;
+	border: 1px solid #b4c3d0;
+	background-color: #ffffff;
+}
+
